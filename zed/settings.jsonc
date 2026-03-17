@@ -1,0 +1,81 @@
+{
+  "git_panel": {
+    "tree_view": true
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "show_whitespaces": "all",
+  "buffer_font_family": "GeistMono Nerd Font",
+  "ui_font_size": 16.0,
+  "buffer_font_size": 14.0,
+  "buffer_font_features": {
+    "calt": false,
+    "liga": false,
+    "dliga": false
+  },
+  "base_keymap": "VSCode",
+  "terminal": {
+    "font_size": 13,
+    "font_family": "GeistMono Nerd Font",
+    "font_features": {
+      "calt": false,
+      "liga": false,
+      "dliga": false
+    }
+  },
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "Fleet Dark"
+  },
+  "icon_theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "Material Icon Theme"
+  },
+  "minimap": {
+    "show": "auto"
+  },
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/.classpath",
+    "**/.settings",
+    "**/.turbo",
+    "**/bun.lock"
+  ],
+  "disable_ai": false,
+  "agent": {
+    "default_profile": "write",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-opus-4.5"
+    }
+  },
+  "inlay_hints": {
+    "enabled": true,
+    "show_value_hints": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+    "show_background": false,
+    "edit_debounce_ms": 700,
+    "scroll_debounce_ms": 50,
+    "toggle_on_modifiers_press": {
+      "control": false,
+      "alt": false,
+      "shift": false,
+      "platform": false,
+      "function": false
+    }
+  },
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": false
+  }
+}
