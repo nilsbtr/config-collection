@@ -94,6 +94,7 @@
     "editor.tabCompletion": "onlySnippets",
     "github.copilot.nextEditSuggestions.enabled": false,
     "github.copilot.nextEditSuggestions.fixes": false,
+    "github.copilot.nextEditSuggestions.eagerness": "auto",
 
     // ----- Editor visuals, guides, and scrolling -----
     "editor.bracketPairColorization.enabled": true,
