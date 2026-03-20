@@ -1,11 +1,11 @@
 [user]
-	name = xxx
-	email = xxx
-	signingkey = xxx
+	name = 
+	email = 
+	signingkey = 
 
 [gpg]
     format = openpgp
-	program = C:/Users/VWY3SGV/scoop/apps/gnupg/current/bin/gpg.exe
+	program = 
 
 [init]
 	defaultBranch = main
