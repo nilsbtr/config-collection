@@ -1,0 +1,74 @@
+[user]
+	name = Boettcher, Nils (ESA)
+	email = nils.boettcher1@volkswagen.de
+	signingkey = 97713897E1745D51043E3A3AA28DB299E12148FD
+
+[gpg]
+    format = openpgp
+	program = C:/Users/VWY3SGV/scoop/apps/gnupg/current/bin/gpg.exe
+
+[init]
+	defaultBranch = main
+
+[core]
+	editor = code --wait
+	autocrlf = false
+	safecrlf = warn
+	fileMode = false
+	longpaths = true
+	ignorecase = true
+	quotepath = false
+	fsmonitor = true
+	untrackedCache = true
+
+[branch]
+	sort = -committerdate
+
+[tag]
+	gpgsign = true
+	sort = version:refname
+
+[status]
+	short = true
+
+[diff]
+	algorithm = histogram
+	colorMoved = default
+
+[merge]
+	conflictStyle = zdiff3
+
+[rerere]
+	enabled = true
+	autoupdate = true
+
+[commit]
+	gpgsign = true
+	verbose = true
+
+[pull]
+	rebase = true
+
+[rebase]
+	autoStash = true
+	updateRefs = true
+
+[fetch]
+	prune = true
+	pruneTags = true
+	writeCommitGraph = true
+
+[push]
+	default = simple
+	autoSetupRemote = true
+	followTags = true
+
+[credential]
+	helper = manager
+
+[http]
+	sslBackend = schannel
+
+[maintenance]
+	auto = true
+	strategy = incremental
