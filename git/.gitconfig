@@ -1,7 +1,7 @@
 [user]
-	name = Boettcher, Nils (ESA)
-	email = nils.boettcher1@volkswagen.de
-	signingkey = 97713897E1745D51043E3A3AA28DB299E12148FD
+	name = xxx
+	email = xxx
+	signingkey = xxx
 
 [gpg]
     format = openpgp
