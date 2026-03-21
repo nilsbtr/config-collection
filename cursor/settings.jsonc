@@ -80,19 +80,21 @@
     "editor.formatOnPaste": false,
     "editor.formatOnType": false,
     "editor.inlineSuggest.enabled": true,
-    "editor.inlayHints.enabled": "on",
-    "editor.acceptSuggestionOnEnter": "off",
-    "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.quickSuggestions": {
         "other": true,
         "comments": false,
-        "strings": true
+        "strings": false
     },
-    "editor.quickSuggestionsDelay": 300,
-    "editor.wordBasedSuggestions": "off",
-    "editor.suggestSelection": "recentlyUsedByPrefix",
-    "editor.snippetSuggestions": "inline",
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.tabCompletion": "onlySnippets",
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.suggest.preview": true,
+    "editor.suggest.insertMode": "insert",
+    "editor.snippetSuggestions": "top",
+    "editor.wordBasedSuggestions": "off",
+    "editor.inlayHints.enabled": "on",
 
     // ----- Editor visuals, guides, and scrolling -----
     "editor.bracketPairColorization.enabled": true,
