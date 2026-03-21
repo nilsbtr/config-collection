@@ -64,10 +64,10 @@
 	followTags = true
 
 [credential]
-	helper = manager
+	helper = manager or manager-core (windows) / osxkeychain (mac)
 
 [http]
-	sslBackend = schannel
+	sslBackend = schannel (windows) / secure-transport (mac)
 
 [maintenance]
 	auto = true
