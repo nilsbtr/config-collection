@@ -2,6 +2,7 @@
     // ----- Workbench chrome, layout, and tabs -----
     "window.titleBarStyle": "custom",
     "window.commandCenter": false,
+    "workbench.browser.showInTitleBar": false,
     "workbench.layoutControl.enabled": false,
     "workbench.editor.empty.hint": "hidden",
     "workbench.editor.wrapTabs": false,
@@ -9,6 +10,9 @@
 
     // ----- Theme, icons, and color polish -----
     "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
+    "extensions.supportAgentsWindow": {
+        "monokai.theme-monokai-pro-vscode": true
+    },
     "workbench.iconTheme": "charmed-icons",
     "workbench.colorCustomizations": {
         "editor.lineHighlightBackground": "#ffffff08",
@@ -147,7 +151,7 @@
     "terminal.integrated.fontSize": 14,
 
     // ----- Shared tooling, linting, schemas, and extensions -----
-    "prettier.requireConfig": true,
+    "prettier.requireConfig": false,
     "prettier.useEditorConfig": true,
     "eslint.format.enable": false,
     "eslint.workingDirectories": [
@@ -188,7 +192,6 @@
     "python.analysis.autoSearchPaths": true,
     "python.analysis.useLibraryCodeForTypes": true,
     "python.terminal.activateEnvironment": true,
-    "ruff.nativeServer": "on",
     "ruff.organizeImports": true,
 
     // ----- Go tooling -----
@@ -260,7 +263,6 @@
     // ----- Miscellaneous -----
     "redhat.telemetry.enabled": false,
     "powershell.promptToUpdatePowerShell": false,
-    "chat.viewSessions.orientation": "stacked",
     "git.addAICoAuthor": "off",
     "gitlens.ai.model": "vscode",
     "gitlens.ai.vscode.model": "copilot:gpt-5.4",
@@ -278,7 +280,17 @@
         "launchpad": false
     },
     "js/ts.experimental.useTsgo": true,
-    "extensions.supportAgentsWindow": {
-        "monokai.theme-monokai-pro-vscode": true
-    }
+    "yaml.disableSchemaDetection": [
+        "**/.github/workflows/*.yml",
+        "**/.github/workflows/*.yaml",
+        "**/.gitea/workflows/*.yml",
+        "**/.gitea/workflows/*.yaml",
+        "**/.forgejo/workflows/*.yml",
+        "**/.forgejo/workflows/*.yaml"
+    ],
+    "dart.flutterSdkPath": "C:\\Users\\Nils\\scoop\\apps\\flutter\\current\\bin",
+    "dart.flutterCreatePlatforms": [
+        "android",
+        "ios"
+    ],
 }
